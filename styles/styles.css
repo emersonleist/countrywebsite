@@ -122,23 +122,6 @@ a:focus {
 }
 
 
-.food-banner video {
-    width: 100%;
-    position: relative;
-}
-
-.food-title {
-    font-size: 5rem;
-    top: 30%;
-    left: 50%;
-    padding-top: 0;
-    z-index: 10;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    text-shadow:1px 1px 2px rgb(20, 20, 20);
-}
-
 .food-items {
     padding: 2rem;
     background-color: #d1d1d1;
