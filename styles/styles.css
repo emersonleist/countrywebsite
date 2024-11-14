@@ -17,7 +17,7 @@ img {
 
 
 a {
-    color: black;
+    color: rgb(178, 0, 0);
     text-decoration: none;
     text-align: center;
 }
@@ -29,6 +29,24 @@ footer {
 blockquote {
     font-size: 1.3em;
     padding: 2rem 0;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    padding: 1rem;
+}
+
+tr td {
+    border: 1px solid #c4c4c4;
+}
+
+table {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
 }
 
 a:visited { 
