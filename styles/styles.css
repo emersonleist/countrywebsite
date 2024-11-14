@@ -11,7 +11,7 @@ body {
 
 
 img {
-    width: 10rem;
+    width:5rem;
     object-fit: cover;
 }
 
@@ -48,11 +48,11 @@ a:focus {
 }
 
 .header-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 .site-header {
     display: flex;
     position: sticky;
@@ -60,7 +60,8 @@ a:focus {
     top: 0;
     margin: 1rem 0;
     padding: 0 1rem;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: rgb(20, 20, 20);
 }
 .nav-links li {
@@ -75,18 +76,16 @@ a:focus {
     list-style-type: none;
     text-decoration: none;
     justify-content: center;
-    gap: 1rem;
-    padding: 0 1rem;
 }
 .site-nav {
-    display: inline-block;
+    display: flex;
     padding: 0;
     z-index: 30;
 }
 
 .banner {
     display: block;
-    padding: 2rem 0rem;
+    padding: 0rem 0rem 2rem 0rem;
 }
 
 .title {
