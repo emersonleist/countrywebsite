@@ -91,7 +91,7 @@ a:focus {
 
 .title {
     font-size: 5rem;
-    top: 50%;
+    top: 20%;
     left: 50%;
     padding-top: 0;
     z-index: 10;
@@ -120,4 +120,22 @@ a:focus {
 .site-footer p {
     text-align: center;
     padding-bottom: 0;
+}
+
+
+.food-banner img {
+    width: 100%;
+    position: relative;
+}
+
+.food-title {
+    font-size: 5rem;
+    top: 40%;
+    left: 50%;
+    padding-top: 0;
+    z-index: 10;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-shadow:1px 1px 2px rgb(20, 20, 20);
 }
