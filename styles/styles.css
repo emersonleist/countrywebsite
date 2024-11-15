@@ -49,8 +49,38 @@ table {
     justify-content: center;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(20, 20, 20); 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+  }
+
 a:visited { 
-    /* color: rgb(33, 129, 108); */
 	text-decoration: none;
 }
 
