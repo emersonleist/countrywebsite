@@ -196,6 +196,7 @@ a:focus {
     padding-inline: 2rem;
     padding-bottom: .1rem;
     border: 1px 1px 1px black;
+    width: 100%;
 }
 
 .travel-section {
