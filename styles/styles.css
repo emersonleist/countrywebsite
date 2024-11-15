@@ -197,3 +197,25 @@ a:focus {
     padding-bottom: .1rem;
     border: 1px 1px 1px black;
 }
+
+.travel-section {
+    display: flex;
+    display: grid;
+    grid-row: auto;
+    border-style: double;
+    justify-items: center;
+    background-color: #c4c4c4;
+}
+
+.travel-section div {
+    display: block;
+    border: #c4c4c4;
+    border-style: double;
+    width: 80%;
+    background-color: rgb(20, 20, 20);
+}
+
+.travel-section img {
+    width: 50%;
+    border-style: double;
+}
